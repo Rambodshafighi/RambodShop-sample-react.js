@@ -1,9 +1,9 @@
 import { Navigate, Route, Routes } from "react-router-dom"
+import ProductsProvider from "./context/ProductsContext"
 import CheckoutPage from "./pages/CheckoutPage"
 import DetailsPage from "./pages/DetailsPage"
 import PageNotFound from './pages/PageNotFound'
 import ProductsPage from "./pages/ProductsPage"
-import ProductsProvider from "./context/ProductsContext"
 function App() {
 
   return (
