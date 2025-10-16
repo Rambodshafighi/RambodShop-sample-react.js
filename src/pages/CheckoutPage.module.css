@@ -1,0 +1,30 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 10px;
+}
+
+.empty {
+	padding: 10px;
+}
+
+.empty p {
+	text-align: center;
+	width: fit-content;
+	margin: auto;
+	padding: 10px;
+	margin-bottom: 2rem;
+}
+
+.empty a {
+	place-self: center;
+	background-color: #fe5d42;
+	color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.products {
+	width: 100%;
+}
